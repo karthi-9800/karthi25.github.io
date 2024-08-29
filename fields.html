@@ -3,61 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Fields</title>
+    <meta name="description" content="description About My Website">
+    <meta name="author" content="Karthi E">
+    <meta name="keywords" content="html,css,java script">
+    <meta property ="og:Title" content="FronEnd workshop">
+    <meta property="og:url" content="https://roadmap.sh/frontend">
+    <meta property="og:description" content="WEBLearn what frontend development is, what skills and tools you need, and how to become a modern frontend developer in 2024.">
+    <meta property="og:image" content="https://miro.medium.com/v2/resize:fit:1200/1*86Oxfh5IQ4OYsH2bApP8AQ.jpeg">
+    <title>FrontEnd Miniproject</title>
+    <link rel="stylesheet" href="style.css">
+
+
+    <style>
+    
+        #p1{
+        font-size:12px;
+        }
+        
+        #p2{
+            color:blue;
+            background-color:aqua;
+        }
+        
+        .para{
+        background-color:brown;
+        color:white;
+        }
+        .SEC{
+        
+            WIDTH:100%;   
+            margin-left: 10px;
+            padding:10px;
+            background-color:rgb(241, 189, 120);
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .nav{
+            padding: 10px;
+            margin-top: 5px;
+        }
+        
+        
+        
+        </style>
+
 </head>
 <body>
+    <header>
+        <nav class="nav" id="top">
+    <a rel="nofollow"  href="https://www.at-home.co.in/" target="blank" accesskey="h" tabindex="1"><span style="color:red;margin-left:10px">Home</span></a> &nbsp;&nbsp;
     
-    <h3>Inline Elements</h3>
-    <span>Front End</span>
-    <strong>HTML</strong>
-    <i>CSS</i>
-    <p>Welcome</p>
-    <span>JavaScript</span>
-    <div>Angular</div>
-
-    <form>
-        <div>
-            <label for="">Name</label>
-            <input type="text" name="firstname" id="firstname">
-        </div>
-        <div>
-            <label for="">Email</label>
-            <input type="email" name="email" id="email">
-        </div>
-
-        <div>
-            <label for="">DOB</label>
-            <input type="date" name="" id="">
-        </div>
-
-        <div>
-            <label for="">Phone No:</label>
-            <input type="tel" name="phone" id="phone">
-        </div>
-
-        <div>
-            <label for="">City</label>
-            <select name="city">
-                <option value="">Chennai</option>
-                <option value="">Madurai</option>
-                <option value="">Trichy</option>
-                <option value="">Salem</option>
-            </select>
-        </div>
-        <div>
-            <label for="">Gender</label>
-            Male <input type="radio" name="gender" id="">
-            Female <input type="radio" name="gender" id="">
-        </div>
-        <div>
-            <label for="">Pin Code</label>
-            <input type="number" name="" id="">
-        </div>
-
-        <label for=""></label>
-        <input type="checkbox" name="terms" id="">
+    <a style="color:red;margin-left:200px"  href="https://www.flipkart.com/" target="blank" accesskey="a"  tabindex="2">About</a>&nbsp;&nbsp;
+    
+    <a style="color:red;margin-left:200px" href="https://roadmap.sh/" target="blank" accesskey="c"  tabindex="3">Contact</a> &nbsp;&nbsp;
+    
+    <a style="color:red;margin-left: 200px;"  href="https://www.netflix.com/login"  accesskey="t"  tabindex="4">Service</a>
+    
+        </nav>
+    </header>
+    <MAIN>
+      
+    <p style="margin-left:1000px;">click here to==><a href="#down">Go Down</a>
+    </p>
+    
+        <section CLASS="SEC">
+            <h1 style="color:rgb(50, 50, 120)"  data-karthi="this is karthi's lorem"><ins>WHAT IS FRONTEND?</ins></h1>
+            <p><b>(Data attribute)</b></p>
+            <p>Frontend is the digital representation of a company, individual, or organization that builds a bridge between a customer or client and the brand1. It is everything with which the user interacts, including the user interface and the interface design and programming that makes the interface function2345. The frontend is responsible for the total look and feel of an online experience and is essential to user interactions and visual journeys45.</p>
+            </section>
+            <hr>
+            
+            <section CLASS="SEC">
+             <h1 style="background-color:rgb(245, 25, 25);COLOR:WHITE;WIDTH:72PX;PADDING-LEFT:10PX;MARGIN-LEFT:1PX">
+                HTML</h1>
+                <p>HTML <SPAN STYLE="COLOR:rgb(19, 19, 12);font-weight: bold;">(HyperText Markup Language) </SPAN>is the standard markup language for creating web pages. It defines the structure and content of web content. When you create a web page, you use HTML elements to enclose different parts of the content, making it appear and behave in specific ways.</p>
+            </section>
+            <hr>
+            
+            <section CLASS="SEC" contenteditable="true">
+                <h1 style="background-color:rgb(40, 25, 245);COLOR:WHITE;WIDTH:50PX;PADDING-LEFT:8PX;MARGIN-LEFT:1PX">
+                    CSS</h1><P><b>(Contenteditable)</b></P>
+                <p>CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of web documents written in HTML or XML. It allows you to control how elements are rendered on screen, paper, speech, or other media. With CSS, you can style text, layout, and even create effects like animation.</p>
+            </section>
+            <hr>
+    
+    <P>click image to dowload it</P>
+    <a href="https://www.exeideas.com/wp-content/uploads/2018/04/JavaScript.jpg" target="blank" download >
+        <image src="https://www.exeideas.com/wp-content/uploads/2018/04/JavaScript.jpg "
+         alt="javacript" width="150p" >
+    </a>
+            <section CLASS="SEC" title="WHAT IS JAVASCRIPT">
+         <H1 style="background-color:rgb(198, 198, 55);COLOR:WHITE;WIDTH:160PX;PADDING:2PX;MARGIN-LEFT:1PX;">
+            JAVA SCRIPT</H1><P><b>(Title attribute)</b></P>
+     <P >JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive. It adds dynamic functionality and complex features like interactivity and animation to web pages. When a web page does more than just display static information—such as showing timely content updates, interactive maps, animated graphics, or scrolling video jukeboxes—you can bet that JavaScript is probably involved12. It’s the third layer of the standard web technologies stack, with HTML defining the structure of web content and CSS handling styling. JavaScript enables you to create dynamically updating content, control multimedia, and perform a wide range of tasks with just a few lines.</P>
+            </section>
+            
+    </MAIN>
+    <hr>
+    
+    <h2>lang attribute</h2>
+    <p lang="en">
+    Hello Welcome to html class
+    </p>
+    <hr>
+    <p hidden>Lorem ipsum dolor sit amet, consectetur
+         aquasi inventore ea.</p>
+         <p hidden>Lorem ipsum dolor sit amet, consectetur
+            aquasi inventore ea.</p>
+    
+    <footer inert>
+    <a  href="https://www.google.com/" tabindex="5">copyright<b>(Inert attribute)</b></a>
+    <p>HTML entity: &copy;<p></p>
+    </footer inert>
+    <h2>Type attributes</h2>
+    <h3 style="color: rgb(43, 156, 226);">Input Type attribute</h3>
+    
+<form action="fields.html" onsubmit="submit" TARGET="BLANK">
+    <fieldset>
+    
+        <legend> Personal Details:</legend>
+        
+        <label type="fname">First Name:</label>
+        
+        <input type="text" id="fname" name="fname" required placeholder="Enter fname"><br><br>
+        
+        <label type="lname">Last Name:</label>
+        
+        <input type="text" id="lname" name="lname" required placeholder="Enter lname"><br><br>
+        
+        <label type="Email">Email:  </label>
+        
+        <input type="email" id="email" name="email" required ><br><br>
+        
+        <label type="birthday">DOB:</label>
+        
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        
+        <input type="submit" value="submit">
+        
+        </fieldset>
     </form>
 
-
-</body>
-</html>
+    <p  style="margin-left:750px;" id="down">click here to ==><a href="#top">Go top</a>
+        <h3 style="color:rgb(43, 156, 226)">Embeded Type Attribute</h3>
+        <embed src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/64/0a/9e/caption.jpg?w=500&h=500&s=1"
+         type="//image.png">
