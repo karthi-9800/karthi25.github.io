@@ -1,0 +1,67 @@
+
+
+table,tr,th,td 
+{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 20px ;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align:center
+
+}
+
+#contain{
+    margin-left: 25px;
+}
+img{
+
+    float:right;
+    
+}
+
+.click1:hover{
+    background-color: rgb(80, 218, 80);
+    border:2px solid black;
+    color:rgb(6, 2, 2);
+    border-radius: 100px;
+    width:25px;
+    cursor: pointer;
+}
+.click2:hover{
+    background-color: rgb(230, 73, 204);
+    border:2px solid black;
+    color:rgb(6, 2, 2);
+   
+    width:100px;
+    cursor: pointer;
+}
+.click3:hover{
+    background-color: rgb(80, 167, 218);
+    border:2px solid black;
+    color:rgb(6, 2, 2);
+    border-radius:25px;
+    width:100px;
+    cursor: pointer;
+}
+.click4:hover{
+    background-color: rgb(235, 82, 84);
+    border:2px solid black;
+    color:rgb(6, 2, 2);
+   
+    width:100px;
+    cursor: pointer;
+}
+.click5:hover{
+    background-color: rgb(164, 95, 247);
+    border:2px solid black;
+    color:rgb(6, 2, 2);
+    border-radius: 100px;
+    width:100px;
+    cursor: pointer;
+}
+
+
+
+
+
